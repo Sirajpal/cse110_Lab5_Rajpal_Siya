@@ -8,13 +8,13 @@ function init() {
   var volume = document.getElementById("volume");
 
 
-hornSelected.addEventListener('change', changeHorn);
-volume.addEventListener('input', changeVolume);
+  hornSelected.addEventListener('change', changeHorn);
+  volume.addEventListener('input', changeVolume);
 
   
-const button = document.querySelector('button');
+  const button = document.querySelector('button');
 
-button.addEventListener('click', playAudio);
+  button.addEventListener('click', playAudio);
 }
 
 
